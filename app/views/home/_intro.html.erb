@@ -20,17 +20,26 @@
             </a>
           </p>
         <% else %>
-          <% placeholder = ["city_lived", "city_met"].shuffle.first %>
-          <%= form_tag authenticate_path, class: "form-inline" do %>
-            <%= hidden_field_tag :locale, I18n.locale %>
-            <div class="form-group">
-              <%= label_tag "password", nil, class: "sr-only" %>
-              <%= text_field_tag "password", nil, class: "form-control psswd",
-                placeholder: t("intro.#{placeholder}") %>
-            </div>
-            <%= submit_tag t('intro.login_button'),
-              class: "btn btn-default"  %>
-          <% end %>
+          <div class="disabled_div">
+
+            <% placeholder = ["city_lived", "city_met"].shuffle.first %>
+            <%= form_tag authenticate_path, class: "form-inline" do %>
+              <%= hidden_field_tag :locale, I18n.locale %>
+              <div class="form-group">
+                <%= label_tag "password", nil, class: "sr-only" %>
+                <%= text_field_tag "password", nil, class: "form-control psswd",
+                  placeholder: t("intro.#{placeholder}") %>
+              </div>
+              <%= submit_tag t('intro.login_button'),
+                class: "btn btn-default"  %>
+            <% end %>
+          </div>
+
+
+          <p>
+            <%= t("intro.more_info_soon") %>
+          </p>
+
         <% end %>
       </div>
     </div>
