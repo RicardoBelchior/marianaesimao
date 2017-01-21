@@ -14,7 +14,7 @@ pt:
   intro:
     login_button: "Entrar"
     city_met: "Em que cidade nos conhecemos?"
-    city_lived: "Em que cidade vivemos juntos?"
+    city_lived: "Em que cidade vivemos?"
     more_info_soon: "Mais informacoes brevemente..."
   map:
     header_church: "Cerimónia Religiosa"

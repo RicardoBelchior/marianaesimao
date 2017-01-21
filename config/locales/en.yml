@@ -32,7 +32,7 @@ en:
   intro:
     login_button: "Log in"
     city_met: "City where we met?"
-    city_lived: "City where we lived together?"
+    city_lived: "City where we live?"
     more_info_soon: "More information soon..."
   map:
     header_church: "Wedding Church"
