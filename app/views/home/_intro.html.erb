@@ -10,9 +10,6 @@
           <p><%= l(Date.parse('03/06/2017'), format: :long) %></p>
         <% end %>
 
-        <p class="heart">
-          <%= render partial: "svgs/heart" %>
-        </p>
         <% if logged_in? %>
           <p class="arrow">
             <a class="page-scroll" href="#story">
