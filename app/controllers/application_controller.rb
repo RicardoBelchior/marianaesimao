@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
   private
 
   def auth password
-    possible_passwords = "a"#ENV["PASSWORDS"]
+    possible_passwords = ENV["PASSWORDS"]
     if possible_passwords.split(",").include?(password.downcase)
       session[:login] = Digest::MD5.hexdigest(password)
       true
