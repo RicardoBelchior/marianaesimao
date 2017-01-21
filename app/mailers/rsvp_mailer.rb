@@ -1,7 +1,5 @@
 class RsvpMailer < ApplicationMailer
-  default
-    from: "no-reply@ritaeantonio.com",
-    to: "ritalagido@gmail.com, a.morais.physics@gmail.com"
+  default from: "no-reply@ritaeantonio.com", to: "ritalagido@gmail.com, a.morais.physics@gmail.com"
 
   def rsvp name, email, notes, answer
     @name = name
