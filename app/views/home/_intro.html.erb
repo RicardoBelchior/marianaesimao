@@ -20,7 +20,7 @@
             </a>
           </p>
         <% else %>
-          <div class="disabled_div">
+          <!-- <div class="disabled_div"> -->
 
             <% placeholder = ["city_lived", "city_met"].shuffle.first %>
             <%= form_tag authenticate_path, class: "form-inline" do %>
@@ -33,12 +33,12 @@
               <%= submit_tag t('intro.login_button'),
                 class: "btn btn-default"  %>
             <% end %>
-          </div>
 
 
+          <!-- </div>
           <p>
             <%= t("intro.more_info_soon") %>
-          </p>
+          </p> -->
 
         <% end %>
       </div>
