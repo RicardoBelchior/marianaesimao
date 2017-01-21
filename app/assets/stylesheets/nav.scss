@@ -58,8 +58,20 @@ ul.nav.navbar-nav {
       padding: 0 15px;
       a {
         border-bottom: 15px solid rgba(#9ed4f5, 0.8);
+      }
 
-        background-color: #fff;
+      ul.dropdown-menu {
+        li {
+          a {
+            border-bottom: none;
+
+          }
+          &.active {
+            a {
+              border-bottom: 15px solid rgba(#9ed4f5, 0.8);
+            }
+          }
+        }
       }
     }
   }
@@ -78,6 +90,7 @@ ul.nav.navbar-nav {
   li.dropdown ul {
     margin-left: 28px;
   }
+
 }
 
 ul.nav.navbar-nav.navbar-right {
