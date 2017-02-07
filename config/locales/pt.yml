@@ -21,7 +21,7 @@ pt:
     header_party: "Quero é comer"
   contact:
     header: "Podemos contar convosco?"
-    tagline: "Do que estão à espera? Preencham o formulário abaixo e digam-nos se vão estar presentes!"
+    tagline: "De que estão à espera? Preencham o formulário abaixo e digam-nos se vão estar presentes!"
     your_name: "Nome"
     answer: "Escolham uma..."
     option_1: "Sim, claro que sim!"
@@ -32,7 +32,7 @@ pt:
     send: "Submeter"
   suggestions:
     header: "As vossas sugestões"
-    tagline: "Porque todas a ajuda é muito bem-vinda e porque queremos que aproveitem ao máximo o nosso casamento, enviem-nos sugestões! Podem ser dicas específicas ou apenas sugestões de músicas (para dançar ou conversar 'ao som de...')"
+    tagline: "Porque toda a ajuda é muito bem-vinda e porque queremos que aproveitem ao máximo o nosso casamento, enviem-nos sugestões! Podem ser dicas específicas ou apenas sugestões de músicas (para dançar ou conversar 'ao som de...')"
     suggestions: "Nomes de músicas e outras sugestões que possam ter..."
   our_suggestions:
     header: "As nossas sugestões"
