@@ -17,8 +17,8 @@ pt:
     city_lived: "Em que cidade vivemos?"
     more_info_soon: "Mais informacoes brevemente..."
   map:
-    header_church: "Cerimónia Religiosa"
-    header_party: "Copo de Água"
+    header_church: "Capela de Santo Ovídio, 15h30"
+    header_party: "Casa de Gião"
   contact:
     header: "Podemos contar convosco?"
     tagline: "De que estão à espera? Preencham o formulário abaixo e digam-nos se vão estar presentes!"
