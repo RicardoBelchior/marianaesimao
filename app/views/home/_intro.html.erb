@@ -19,7 +19,7 @@
         <% else %>
           <!-- <div class="disabled_div"> -->
 
-            <% placeholder = ["city_lived", "city_met"].shuffle.first %>
+            <% placeholder = ["city_lived"].shuffle.first %>
             <%= form_tag authenticate_path, class: "form-inline" do %>
               <%= hidden_field_tag :locale, I18n.locale %>
               <div class="form-group">
