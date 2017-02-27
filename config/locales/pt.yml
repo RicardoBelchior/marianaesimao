@@ -18,7 +18,9 @@ pt:
     more_info_soon: "Mais informacoes brevemente..."
   map:
     header_church: "Capela de Santo Ovídio, 15h30"
+    header_church_desc: "Vairão, Vila do Conde"
     header_party: "Casa de Gião"
+    header_party_desc: "Gião, Vila do Conde"
   contact:
     header: "Podemos contar convosco?"
     tagline: "De que estão à espera? Preencham o formulário abaixo e digam-nos se vão estar presentes!"
